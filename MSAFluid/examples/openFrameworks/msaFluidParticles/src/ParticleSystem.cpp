@@ -26,7 +26,7 @@ void ParticleSystem::setWindowSize( Vec2f winSize )
 void ParticleSystem::updateAndDraw( bool drawingFluid ){
 	glEnable(GL_BLEND);
 	glDisable( GL_TEXTURE_2D );
-	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	glBlendFunc(GL_ONE,GL_ONE);
 	glEnable(GL_LINE_SMOOTH);       
 	
 	for(int i=0; i<MAX_PARTICLES; i++) {
@@ -41,7 +41,7 @@ void ParticleSystem::updateAndDraw( bool drawingFluid ){
 	glEnableClientState(GL_COLOR_ARRAY);
 	glColorPointer(3, GL_FLOAT, 0, colArray);
 	
-	glDrawArrays(GL_TRIANGLE_STRIP, 0, MAX_PARTICLES * 2);
+	glDrawArrays(GL_LINES, 0, MAX_PARTICLES * 2);
 	
 	glDisableClientState(GL_VERTEX_ARRAY);
 	glDisableClientState(GL_COLOR_ARRAY);
