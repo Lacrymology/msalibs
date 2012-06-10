@@ -10,28 +10,28 @@
 
 	<add>	
 		<src>
-			<folder name="addons/MSACore/src">			
-				<file>../../../addons/MSACore/src/MSACore-Cinder.h</file>
-				<file>../../../addons/MSACore/src/MSACore-OF.h</file>
-				<file>../../../addons/MSACore/src/MSACore.h</file>
-				<file>../../../addons/MSACore/src/MSACoreCommon.h</file>
-				<file>../../../addons/MSACore/src/MSACoreGL.h</file>
-				<file>../../../addons/MSACore/src/MSACoreGL.cpp</file>
-				<file>../../../addons/MSACore/src/MSACoreMath.h</file>
+			<folder name="addons/ofxMSACore/src">			
+				<file>../../../addons/ofxMSACore/src/MSACore-Cinder.h</file>
+				<file>../../../addons/ofxMSACore/src/MSACore-OF.h</file>
+				<file>../../../addons/ofxMSACore/src/MSACore.h</file>
+				<file>../../../addons/ofxMSACore/src/MSACoreCommon.h</file>
+				<file>../../../addons/ofxMSACore/src/MSACoreGL.h</file>
+				<file>../../../addons/ofxMSACore/src/MSACoreGL.cpp</file>
+				<file>../../../addons/ofxMSACore/src/MSACoreMath.h</file>
 			</folder> 
-			<folder name="addons/MSACore/src/cinder-lite">			
-				<file>../../../addons/MSACore/src/cinder-lite/ChanTraits.h</file>
-				<file>../../../addons/MSACore/src/cinder-lite/CinderMath</file>
-				<file>../../../addons/MSACore/src/cinder-lite/Color.cpp</file>
-				<file>../../../addons/MSACore/src/cinder-lite/Color.h</file>
-				<file>../../../addons/MSACore/src/cinder-lite/Vector.h</file>
+			<folder name="addons/ofxMSACore/src/cinder-lite">			
+				<file>../../../addons/ofxMSACore/src/cinder-lite/ChanTraits.h</file>
+				<file>../../../addons/ofxMSACore/src/cinder-lite/CinderMath</file>
+				<file>../../../addons/ofxMSACore/src/cinder-lite/Color.cpp</file>
+				<file>../../../addons/ofxMSACore/src/cinder-lite/Color.h</file>
+				<file>../../../addons/ofxMSACore/src/cinder-lite/Vector.h</file>
 			</folder>  			
 
 		</src>
 
 		<include>
-			<path>../../../addons/MSACore/src</path>
-			<path>../../../addons/MSACore/src/cinder-lite</path>
+			<path>../../../addons/ofxMSACore/src</path>
+			<path>../../../addons/ofxMSACore/src/cinder-lite</path>
 		</include>
 		
 		<link>

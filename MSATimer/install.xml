@@ -9,13 +9,13 @@
     
 	<add>	
 		<src>
-			<folder name="addons/MSATimer/src">			
-				<file>../../../addons/MSATimer/src/MSATimer.h</file>
+			<folder name="addons/ofxMSATimer/src">			
+				<file>../../../addons/ofxMSATimer/src/MSATimer.h</file>
 			</folder>
 		</src>
 
 		<include>
-			<path>../../../addons/MSATimer/src</path>
+			<path>../../../addons/ofxMSATimer/src</path>
 		</include>
 		
 		<link>

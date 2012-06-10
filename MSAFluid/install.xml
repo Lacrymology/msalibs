@@ -9,18 +9,18 @@
     
 	<add>	
 		<src>
-			<folder name="addons/MSAFluid/src">			
-				<file>../../../addons/MSAFluid/src/MSAFluid.h</file>
-				<file>../../../addons/MSAFluid/src/MSAFluidDrawer.h</file>
-				<file>../../../addons/MSAFluid/src/MSAFluidDrawer.cpp</file>
-				<file>../../../addons/MSAFluid/src/MSAFluidSolver.h</file>
-				<file>../../../addons/MSAFluid/src/MSAFluidSolver.cpp</file>
-				<file>../../../addons/MSAFluid/src/MSAFluidParticleUpdater.h</file>
+			<folder name="addons/ofxMSAFluid/src">			
+				<file>../../../addons/ofxMSAFluid/src/MSAFluid.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidDrawer.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidDrawer.cpp</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidSolver.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidSolver.cpp</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidParticleUpdater.h</file>
 			</folder>
 		</src>
 
 		<include>
-			<path>../../../addons/MSAFluid/src</path>
+			<path>../../../addons/ofxMSAFluid/src</path>
 		</include>
 		
 		<link>
